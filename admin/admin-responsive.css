@@ -1,0 +1,233 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .responsive-menu-icon {
+	display: block;
+}
+.main-content-wrapper {
+	margin-left: 0%;
+}
+.adNav {
+	position: relative;
+	top: 0%;
+	left: 0;
+	width: 100%;
+    height: 0vh;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.responisve-head-right{
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  
+}
+.resrightHeight{
+    height: 100%;
+}
+.height-100{
+    height: 50vh;
+    transition: all 0.3s ease-in-out;
+    overflow-y: scroll;
+}
+.notMsg {
+    display: block;  
+}
+.notMsg li a {
+	margin-left: 10px;
+	display: block;
+}
+.msgIcon::before {
+	right: 95%;
+}
+#msgIcon span {
+	float: right;
+}
+#notiIcon span {
+	float: right;
+}
+.notMsg li {
+	padding: 10px 0px;
+}
+.new-msg-box {
+	top: 35%;
+	left: 0%;
+	z-index: 2;
+	right: 0%;
+    overflow-y: scroll;
+    width: 100%;
+}
+.new-msg-box.alert-box{
+    left:0px;
+    top: 100%;
+}
+.admin-search-box {
+	display: block;
+	margin-bottom: 10px;
+}
+.sidenav-collapse-btn {
+	display: none;
+}
+.msgbody-list-cover li {
+	display: block;
+	padding: 20px;
+}
+.card-msg-left {
+	margin: 20px 0;
+	text-align: center;
+}
+.card-msg-right p{
+	text-align: center;
+}
+.sendMsg-btn {
+	background: #F4f4f4;
+	padding: 7px 10px;
+	display: inline-block;
+	
+	font-size: 10px;
+}
+.booking-content-midle {
+	align-items: center;
+	justify-content: center;
+}
+.booking-list-midle-right {
+	margin-top: -50px;
+}
+.row.bg-gray .form-group {
+	margin-bottom: 0.753rem;
+}
+.table-entries {
+	margin-bottom: 10px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 360px) {
+ .booking-list-midle-left h4 {
+	font-size: 18px;
+}
+.sendMsg-btn {
+	display: block;
+	
+}
+.actionWrapper ul li {
+	margin-left: 5px;
+	width: 100%;
+}
+.headingTime.d-flex.justify-content-between em {
+	font-size: 9px;
+	display: block;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	   .responsive-menu-icon {
+	display: block;
+}
+.main-content-wrapper {
+	margin-left: 0%;
+}
+.adNav {
+	position: relative;
+	top: 0%;
+	left: 0;
+	width: 100%;
+    height: 0vh;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.responisve-head-right{
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  
+}
+.resrightHeight{
+    height: 100%;
+}
+.height-100{
+    height: 50vh;
+    transition: all 0.3s ease-in-out;
+    overflow-y: scroll;
+}
+.notMsg {
+    display: block;  
+}
+.notMsg li a {
+	margin-left: 10px;
+	display: block;
+}
+.msgIcon::before {
+	right: 95%;
+}
+#msgIcon span {
+	float: right;
+}
+#notiIcon span {
+	float: right;
+}
+.notMsg li {
+	padding: 10px 0px;
+}
+.new-msg-box {
+	top: 35%;
+	left: 0%;
+	z-index: 2;
+	right: 0%;
+    overflow-y: scroll;
+    width: 100%;
+}
+.new-msg-box.alert-box{
+    left:0px;
+    top: 100%;
+}
+.admin-search-box {
+	display: block;
+	margin-bottom: 10px;
+}
+.sidenav-collapse-btn {
+	display: none;
+}
+.msgbody-list-cover li {
+	display: block;
+	padding: 20px;
+}
+.card-msg-left {
+	margin: 20px 0;
+	text-align: center;
+}
+.card-msg-right p{
+	text-align: center;
+}
+.sendMsg-btn {
+	background: #F4f4f4;
+	padding: 7px 10px;
+	display: inline-block;
+	
+	font-size: 10px;
+}
+.booking-content-midle {
+	align-items: center;
+	justify-content: center;
+}
+.booking-list-midle-right {
+	margin-top: -50px;
+}
+.row.bg-gray .form-group {
+	margin-bottom: 0.753rem;
+}
+.table-entries {
+	margin-bottom: 10px;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
